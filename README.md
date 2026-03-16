@@ -21,12 +21,12 @@ git clone <repo_link>
 ## Usage
 
 ```markdown
-
-Python konsolunda:
+Python
+```
 
 ```python
 from src.generator import prime1, prime2, sieve
-
+```
 
 print(prime1(17))  # True
 print(prime2(18))  # False
@@ -38,6 +38,7 @@ print(sieve(20))   # [2, 3, 5, 7, 11, 13, 17, 19]
 
 ```markdown
 Unittest has been used in this project. To run all tests:
+```
 
 ```bash
 python - m unittest discover -s tests
