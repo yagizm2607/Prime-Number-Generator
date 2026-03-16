@@ -26,7 +26,6 @@ Python
 
 ```python
 from src.generator import prime1, prime2, sieve
-```
 
 print(prime1(17))  # True
 print(prime2(18))  # False
