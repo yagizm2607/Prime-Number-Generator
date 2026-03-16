@@ -47,8 +47,6 @@ python -m unittest discover -s tests
 
 ## Additional Information
 
----
-
 - Negative numbers, non-integers or strings will raise **ValueError**.
 - The code handles both normal and edge cases.
 - It can compare the speed of each prime-checking method for performance testing.
