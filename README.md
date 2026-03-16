@@ -10,8 +10,11 @@ This python project provides functions to check and generate prime numbers using
 
 1. Ensure that the version of Python is 3.x
 2. Clone the project:
+
 ```bash
 git clone <repo_link>
+
+```
 
 ---
 
@@ -29,6 +32,8 @@ print(prime1(17))  # True
 print(prime2(18))  # False
 print(sieve(20))   # [2, 3, 5, 7, 11, 13, 17, 19]
 
+```
+
 ## Testler
 
 ```markdown
@@ -36,6 +41,7 @@ Unittest has been used in this project. To run all tests:
 
 ```bash
 python - m unittest discover -s tests
+```
 
 ## Additional Information
 
