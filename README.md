@@ -31,7 +31,7 @@ while not prime1(n1):
     n1 = random.randint(2, 10000)
 
 print(prime1(n1))  # True
-print(prime2(n1))  # False
+print(prime2(n1))  # True
 print(sieve(20))   # [2, 3, 5, 7, 11, 13, 17, 19]
 
 ```
