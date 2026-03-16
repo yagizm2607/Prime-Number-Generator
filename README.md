@@ -20,27 +20,29 @@ git clone <repo_link>
 
 ## Usage
 
-```markdown
 Python
-```
 
 ```python
 from src.generator import prime1, prime2, sieve
+import random
 
-print(prime1(17))  # True
-print(prime2(18))  # False
+n1 = random.randint(2, 10000)
+while not prime1(n1):
+    n1 = random.randint(2, 10000)
+
+print(prime1(n1))  # True
+print(prime2(n1))  # False
 print(sieve(20))   # [2, 3, 5, 7, 11, 13, 17, 19]
 
 ```
 
 ## Testler
 
-```markdown
 Unittest has been used in this project. To run all tests:
-```
+
 
 ```bash
-python - m unittest discover -s tests
+python -m unittest discover -s tests
 ```
 
 ## Additional Information
